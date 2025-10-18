@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- google font stat -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com">
+     <link rel="stylesheet" href="https://fonts.gstatic.com">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<!-- google font end -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="index.js">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    
+</head>
+<body>
+    
+
+
+
+<!-- Navbar start -->
+
+<nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" id="logo"><span>R</span>oam & <span>R</span>oot</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#book">Booking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Packages">Packages</a>
+          </li> 
+           <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link" href="#gallary">Gallary</a>
+          </li> 
+           <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+<!-- Navbar end -->
+
+<!-- home section start -->
+<div class="home">
+  <div class="content">
+     <h5>Welcome To WorldWide</h5>
+     <h1>Vist <span class="France"></span></h1>
+     <!-- <p>lorem ipsum, dolor sit amet consectertur adipisincing elit. Quae, nisi</p> -->
+     <a href="#book">Get start</a>
+
+   </div>
+
+ </div>
+ <!-- home section end -->
+
+
+  <!-- section book strt --> 
+
+  <section class="book" id="book">
+    <div class="container">
+
+
+      <div class="main-txt">
+        <h1><span>B</span>ooking</h1>
+      </div>
+
+
+      <div class="row">
+
+        <div class="col-md-7 py-3 py-md-0">
+         <div class="card">
+            <img src="backgound2.jpg" alt="">
+           </div>
+        </div>
+         
+
+        <div class="col-md-5 py-3 py-md-0">
+          <form action="#">
+                     <br>
+            <input type="text" class="form-control" placeholder="Where To" required><br>
+            <input type="text" class="form-control" placeholder="How Many" required><br>
+            <input type="date" class="form-control" placeholder="Arrivals" required><br>
+            <input type="date" class="form-control" placeholder="Leaving" required><br>
+            <textarea class="form-control" rows="5" placeholder="Enter You Name & Details"></textarea>
+            <input type="submit" value="Book Now" class="submit" required>
+
+          </form>
+
+
+        </div>
+
+      </div>
+     </div>
+  </section>
+
+<!-- section book end --> 
+
+
+
+
+
+
+
+<!-- section Packages strt-->
+<section class="Packages" id="Packages">
+  <div class="container">
+
+    <div class="main-txt">
+      <h1><span>P</span>ackages</h1>
+    </div>
+
+    
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="india1.webp" alt="" height="230px">
+          <div class="card-body">
+          <h3>India</h3>
+          <p>India is described as a culturally rich and stimulating country with a vast history and spiritual heritage. </p>
+            <div class="star-rating">
+               <i class="fa-solid fa-star checked"></i>
+               <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+             <i class="fa-solid fa-star" data-index="4"></i>
+             <i class="fa-solid fa-star" data-index="5"></i>
+            </div>
+          <h6>Price: <strong>₹999</strong></h6>
+          <button onclick="showMessage()">Book Now</button>
+          <!-- <a href="#book">Book Now</a> -->
+        </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="pakistan1.jpg" alt="" height="230px">
+           <div class="card-body">
+          <h3>Pakistan</h3>
+          <p>The country offers a deep cultural experience, from ancient Buddhist sites to historic forts and vibrant street life. </p>
+          <div class="star-rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+           <i class="fa-solid fa-star" data-index="4"></i>
+           <i class="fa-solid fa-star" data-index="5"></i>
+          </div>
+          <h6>Price: <strong>₹999</strong></h6>
+          <button onclick="showMessage()">Book Now</button>
+          <!-- <a href="#book">Book Now</a> -->
+        </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="china1.jpg" alt="" height="230px">
+          <div class="card-body">
+          <h3>China</h3>
+          <p>China offers a vast array of ancient monuments, unique cities, and cultural experiences. </p>
+          <div class="star-rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star  "></i>
+            <i class="fa-solid fa-star "></i>
+          </div>
+          <h6>Price: <strong>₹999</strong></h6>
+          <button onclick="showMessage()">Book Now</button>
+          <!-- <a href="#book">Book Now</a> -->
+        </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="spain1.jpg" alt="" height="230px">
+           <div class="card-body">
+          <h3>Spain</h3>
+          <p>Visitors can enjoy everything from beautiful Mediterranean beaches to mountainous retreats.   </p>
+          <div class="star-rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star  "></i>
+            <i class="fa-solid fa-star "></i>
+          </div>
+          <h6>Price: <strong>₹999</strong></h6>
+          <button onclick="showMessage()">Book Now</button>
+          <!-- <a href="#book">Book Now</a> -->
+        </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="mexico1.jpg" alt="" height="230px">
+           <div class="card-body">
+          <h3>Mexico</h3>
+          <p>Mexico offers a wide variety of landscapes, from Pacific beaches and deserts to jungles and mangroves. </p>
+          <div class="star-rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star  "></i>
+            <i class="fa-solid fa-star "></i>
+          </div>
+          <h6>Price: <strong>₹999</strong></h6>
+          <button onclick="showMessage()">Book Now</button>
+          <!-- <a href="#book">Book Now</a> -->
+        </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="france2.jpg" alt="" height="230px">
+           <div class="card-body">
+          <h3>France</h3>
+          <p>France is consistently the world's most visited country due to its diverse landscapes, rich culture, and world-renowned food.</p>
+          <div class="star-rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star  "></i>
+            <i class="fa-solid fa-star "></i>
+          </div>
+          <h6>Price: <strong>₹999</strong></h6>
+          <button onclick="showMessage()">Book Now</button>
+          <!-- <a href="#book">Book Now</a> -->
+        </div>
+        </div>
+    
+
+   
+
+    
+    </div>
+
+
+  </div>
+
+</section>
+
+ 
+
+<!-- section Packages end-->
+<!-- section services start-->
+
+       
+       
+       
+      
+
+  
+ 
+
+<section class="services" id="services">
+    <div class="container">
+        <div class="main-txt">
+           <h1><span>S</span>ervices</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+
+  
+        <div class="card">
+          <i class="fas fa-hotel"></i>
+          
+          <h3>Affordable Hotel</h3>
+         
+          <p>La Mamounia treats you to a wonderfully soothing soundscape: from the birdsong that drifts up from the hotel gardens in the morning to the gentle babbling of fountains as you stroll from one area to the next. 
+
+ 
+            
+          </p>
+       </div>
+
+      </div>
+
+
+      <div class="col-md-4 py-3 py-md-0">
+
+  
+        <div class="card">
+          <i class="fas fa-utensils"></i>
+          
+          <h3>Food & Drinks</h3>
+         
+          <p>"food is our common ground, a universal experience" or that "one cannot think well, love well, sleep well, if one has not dined well"
+            
+          </p>
+       </div>
+
+      </div>
+
+
+      <div class="col-md-4 py-3 py-md-0">
+
+  
+        <div class="card">
+          <i class="fas fa-bullhorn"></i>
+          
+          <h3>Safty Guide</h3>
+         
+          <p>A comprehensive safety guide for tourists includes taking precautions before and during your trip, such as researching your destination, securing your belongings, and being aware of your surroundings. It's also important to stay connected with family, drink responsibly, and have copies of important documents and emergency contact information readily available. 
+          </p>
+       </div>
+
+      </div>
+
+    
+
+    </div>
+
+
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+
+
+      <div class="card">
+        <i class="fas fa-globe-asia"></i>
+        
+        <h3>Visa-free entry or Hayya e-visa</h3>
+       
+        <p>Travelers from various countries are eligible for visa-free entry to Qatar, while others can easily obtain an e-visa through the Hayya platform. Check if you are eligible for visa-free entry or need an e-visa
+        </p>
+     </div>
+
+    </div>
+
+
+    <div class="col-md-4 py-3 py-md-0">
+
+
+      <div class="card">
+        <i class="fas fa-plane"></i>
+        
+        <h3>Fastest Travel</h3>
+       
+        <p>Airplane: The fastest way to travel long distances is by airplane, which can travel at high speeds, allowing for quick journeys compared to cars or trains. 
+        </p>
+     </div>
+
+    </div>
+
+
+    <div class="col-md-4 py-3 py-md-0">
+
+
+      <div class="card">
+        <i class="fas fa-hiking"></i>
+        
+        <h3>Adventures   </h3>
+       
+        <p>meaning in malayalam Where: Blue Mountains, a 1.5-hour drive from Sydney The World Heritage-listed Blue Mountains have more than 47 hikes revealing dramatic cliffs, native wildlife and picturesque waterfalls. With Blue Mountains Adventure Company, you can step off the path and out of your comfort zone on a day of canyoning and abseiling amid the mountains
+        </p>
+     </div>
+
+    </div>
+
+  
+
+  </div>
+
+
+  </div>
+
+</section>
+
+<!-- section services end-->
+
+
+
+<!-- section handpicked collection start-->
+
+<section class="gallary" id="gallary">
+   <div class="container">
+
+    <div class="main-txt">
+      <h1><span>H</span>andpicked collection for u</h1>
+    </div> 
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="adv.webp" alt="" height="230px">
+
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="gallary2.jpg" alt="" height="230px">
+
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="gallary3.jpg" alt="" height="230px">
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="gallary4.jpg" alt="" height="230px">
+
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="gallary5.jpeg" alt="" height="230px">
+
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="gallary6.jpg" alt="" height="230px">
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+   </div>
+
+</section>
+
+
+<!-- section handpicked collection end-->
+
+
+<!-- about start -->
+ <section class="about" id="about">
+  <div class="container">
+
+    <div class="main-txt">
+      <h1>About <span>Us</span></h1>
+    </div>
+
+    <div class="row" style="margin-top: 50px;">
+      <div class="col-md-6 py-3 py-md-0">
+        <div class="card">
+          <img src="about.avif" alt="">
+        </div>
+      </div>
+
+      <div class="col-md-6 py-3 py-md-0">
+        <h2>How Travel Agency Work</h2>
+        <p>A strong "About Us" page for a travel agency should include a compelling brand story, a clear mission statement, and information about who you serve and how you operate. It should also feature the "faces of the business," testimonials or awards, and persuasive content to build trust and highlight your unique value proposition</p>
+        <button id="about-btn">Read More...</button>
+      </div>
+
+    </div>
+  </div>
+
+ </section>
+
+<!-- about end -->
+
+
+
+<!-- footer start -->
+ <footer id="footer">
+  <h1><span>F</span>ollow</h1>
+  <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. sunt veniam est dicta doloremque ratione, voluptas aliquid error quia.</p> -->
+   <div class="social-links">
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-youtube"></i>
+    <i class="fa-brands fa-google"></i>
+   </div>
+
+   <div class="credit">
+    <p>Designed By <a href="#">VIPIN</a></p>
+   </div>
+   <div class="copyright">
+    <p>&copy;Copyright. All Right Reserved</p>
+
+   </div>
+
+ </footer>
+
+<!-- footer end -->
+
+
+
+<script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
